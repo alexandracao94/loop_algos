@@ -7,7 +7,19 @@
 //The expected output will be 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz .... etc 
 
 
-
-
-
 //YOUR CODE HERE
+
+var x;
+for(x=1;x<31;x++){
+    if (x%15==0){
+        console.log("FizzBuzz")
+    }
+    else if(x%3==0){
+        console.log("Fizz");
+    } 
+    else if(x%5==0){
+        console.log("Buzz");
+    } else{
+            console.log(x);
+    }
+}
